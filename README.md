@@ -227,4 +227,4 @@ Available for remote consulting — Canada + US time zones.
 
 ---
 
-*© 2026 M Priyadarsini · 1144Canada Inc.*
+*© 2026 M Priyadarsini
