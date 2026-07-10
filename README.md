@@ -108,16 +108,13 @@ GOVERNED VIEWS — Agent-queryable data products
 ### Gold Layer — Fraud Risk Scoring
 | Claim | Amount | Ratio | Delay | Risk Score | Label |
 |---|---|---|---|---|---|
-| 4 | $9,000 | 0.90 | 2 days | **0.54** | FRAUD RISK |
-| 2 | $8,500 | 0.85 | 1 day | **0.51** | FRAUD RISK |
-| 7 | $7,200 | 0.90 | 1 day | **0.65** | FRAUD RISK |
-| 1 | $2,500 | 0.25 | 2 days | **0.13** | LOW RISK |
-| 8 | $450 | 0.05 | 5 days | **0.03** | LOW RISK |
-
-### Fraud Summary View
-| Total Claims | High Risk | Avg Score | Total Fraud Amount |
-|---|---|---|---|
-| 10 | 4 | 0.267 | $31,500 |
+| 6 | $3,500 | 0.35 | 16 days | 0.61 | FRAUD RISK |
+| 3 | $5,000 | 1.00 | 1 day | 0.60 | FRAUD RISK |
+| 7 | $7,200 | 0.90 | 1 day | 0.54 | FRAUD RISK |
+| 4 | $9,000 | 0.90 | 2 days | 0.54 | FRAUD RISK |
+| 2 | $8,500 | 0.85 | 1 day | 0.51 | FRAUD RISK |
+| 9 | $6,800 | 0.76 | 1 day | 0.45 | LOW RISK |
+| 1 | $2,500 | 0.25 | 2 days | 0.15 | LOW RISK |
 
 ---
 
