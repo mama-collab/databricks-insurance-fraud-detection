@@ -50,16 +50,16 @@ CREATE TABLE IF NOT EXISTS insurance_cat.default.claims_raw (
 );
 
 INSERT INTO insurance_cat.default.claims_raw VALUES
-(1,  10001, 20001,  2500.00,  10000.00, 'Minor fender bender in parking lot. No injuries.',         '2026-01-10', '2026-01-12', 0),
-(2,  10002, 20002,  8500.00,  10000.00, 'Vehicle stolen from driveway overnight.',                  '2026-01-15', '2026-01-16', 1),
-(3,  10003, 20003,  1200.00,  15000.00, 'Windshield cracked by debris on highway.',                 '2026-01-20', '2026-01-25', 0),
-(4,  10004, 20004,  9000.00,  10000.00, 'Total loss after collision at intersection.',              '2026-02-01', '2026-02-03', 1),
-(5,  10005, 20005,   800.00,  12000.00, 'Water damage from burst pipe in garage.',                  '2026-02-05', '2026-02-10', 0),
-(6,  10006, 20006,  3500.00,  10000.00, 'Rear-ended at traffic light. Whiplash claim.',             '2026-02-12', '2026-02-28', 0),
-(7,  10007, 20007,  7200.00,   8000.00, 'Fire damage to vehicle. Cause unknown.',                   '2026-03-01', '2026-03-02', 1),
-(8,  10008, 20008,   450.00,  10000.00, 'Hail damage to roof and hood.',                            '2026-03-10', '2026-03-15', 0),
-(9,  10009, 20009,  6800.00,   9000.00, 'Flood damage. Vehicle submerged.',                         '2026-03-20', '2026-03-21', 1),
-(10, 10010, 20010,  1800.00,  20000.00, 'Side mirror damaged in hit and run.',                      '2026-04-01', '2026-04-05', 0);
+(1,  1001, 501,  2500.00,  10000.00, 'Minor fender bender in parking lot',         '2026-01-10', '2026-01-12', 0),
+(2,  1002, 502,  8500.00,  10000.00, 'theft reported',                              '2026-01-15', '2026-01-16', 1),
+(3,  1003, 503,  5000.00,   5000.00, 'water leak issue',                            '2026-01-20', '2026-01-21', 1),
+(4,  1004, 504,  9000.00,  10000.00, 'suspicious fire incident',                    '2026-02-01', '2026-02-03', 1),
+(5,  1005, 505,   800.00,  12000.00, 'Water damage from burst pipe in garage',      '2026-02-05', '2026-02-10', 0),
+(6,  1006, 506,  3500.00,  10000.00, 'Rear-ended at traffic light whiplash claim',  '2026-02-12', '2026-02-28', 0),
+(7,  1007, 507,  7200.00,   8000.00, 'Fire damage to vehicle cause unknown',        '2026-03-01', '2026-03-02', 1),
+(8,  1008, 508,   450.00,  10000.00, 'Hail damage to roof and hood',               '2026-03-10', '2026-03-15', 0),
+(9,  1009, 509,  6800.00,   9000.00, 'Flood damage vehicle submerged',             '2026-03-20', '2026-03-21', 1),
+(10, 1010, 510,  1800.00,  20000.00, 'Side mirror damaged in hit and run',         '2026-04-01', '2026-04-05', 0);
 
 -- ============================================================
 -- SECTION 3: BRONZE LAYER — RAW INGESTION
